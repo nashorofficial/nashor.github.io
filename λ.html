@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-type">
+  <link href="styles.css" rel="stylesheet">
+  <link href="Pokemon/TemplateData/style.css" rel="stylesheet">
+  <script src="Pokemon/TemplateData/UnityProgress.js">
+  </script>
+  <script src="Pokemon/Build/UnityLoader.js">
+  </script>
+  <script>
+       var gameInstance = UnityLoader.instantiate("gameContainer", "Pokemon/Build/Desktop.json", {
+         onProgress: UnityProgress}
+                                                 );
+  </script>
+  <title>/λ/ — pokemon game</title>
+</head>
+<body>
+  <div id="overheader">
+    <b><a class="nashor" href="index.html">nashor.xyz</a></b> <span class="mobile">&nbsp;&nbsp;[ <a href="λ.html">λ</a> / <a href="Δ.html">Δ</a> ]&nbsp;&nbsp;[ <a href="₿.html">₿</a> / <a href="♪.html">♪</a> ]</span> <span class="tablet">&nbsp;&nbsp; <small><a href="https://google.ca">info</a></small></span>
+  <div class="webgl-content">
+    <div id="gameContainer" style="width: 1440px; height: 900px"></div>
+    <div class="footer">
+      <div class="webgl-logo"></div>
+      <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+    </div>
+  </div>
+</body>
+</html>
