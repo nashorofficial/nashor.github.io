@@ -2,81 +2,129 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
 }
-
-article,
-aside,
-button,
-div,
-footer,
-form,
-header,
-input,
-main,
-nav,
-section,
-textarea {
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+fieldset {
+  color: #949494 !important;
+  font-weight: 400;
+}
+fieldset b {
+  font-weight: bold;
+}
+fieldset h3 {
+  margin: 0rem 0 0.25rem 0;
+  font-size: 1.05rem;
+  color: #d4d4d4;
+}
+fieldset p {
+  font-size: 0.9rem;
+  margin: 0 0 2rem 0;
+}
+fieldset p:last-child {
+  margin: 0 0 1rem 0;
+}
+fieldset input, fieldset textarea, table input, table textarea {
+  background: #111111;
+  color: #dddddd;
+  border: 0;
+  box-shadow: 3px 3px 0px #000000;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem 0;
+  font-family: "Roboto", arial, helvetica, sans-serif;
+}
+fieldset input {
+  display: inline-block;
+}
+fieldset select {
+  display: inline;
+  background: #111111;
+  color: #dddddd;
+  border: 0;
+  box-shadow: 3px 3px 0px #000000;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  margin: 0 0.5rem 0 0;
+}
+fieldset {
+  border: 1px solid #212121;
+  font-size: 1rem;
+  margin: 3rem auto 0 auto;
+  width: 640px;
+  padding: 1rem 2rem 1rem 2rem;
+  line-height: 1.333;
+  color: #949494;
+}
+fieldset ul {
+  margin: 0 0 1rem 2rem;
+  padding: 0;
+}
+fieldset ul li {
+  list-style-type: katakana;
+}
+fieldset small {
+  font-size: 0.8rem;
+}
+fieldset legend {
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-left: -1rem;
+  padding: 0 1rem 0 1rem;
+}
+fieldset label {
+  display: block;
+  border: 0;
+}
+fieldset code {
+  font-size: 0.8rem;
+}
+article, aside, button, div, footer, form, header, input, main, nav, section, textarea {
   box-sizing: border-box;
   display: block;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-
-p,
-span {
+p, span {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
-
-figcaption,
-figure {
+figcaption, figure {
   display: block;
 }
-
 figure {
   margin: 1em 40px;
 }
-
 hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
-
 pre {
   font-family: monospace, monospace;
   font-size: 1em;
 }
-
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
-
-a:active,
-a:hover {
+a:active, a:hover {
   outline-width: 0;
 }
-
 small {
   font-size: 75%;
 }
-
 body {
   background: #070707;
   color: #d4d4d4;
@@ -84,20 +132,16 @@ body {
   font-size: 12pt;
   overflow-x: hidden;
 }
-
 a {
   text-decoration: none;
 }
-
 a:hover {
   transition: color ease 0.5s;
 }
-
 a.add_image {
   font-size: 1.5rem;
   font-family: "Roboto Mono", "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 }
-
 #overheader {
   align-items: center;
   background: #070707;
@@ -116,7 +160,6 @@ a.add_image {
   height: 45px !important;
   max-height: 45px !important;
 }
-
 #overheader span {
   align-items: center;
   justify-content: center;
@@ -124,76 +167,61 @@ a.add_image {
   padding: 0;
   margin: 0;
 }
-
 #overheader img {
   display: inline-block;
   margin-top: -1px;
 }
-
 #overheader a {
   color: #919191;
   margin: 0.25rem;
 }
-
 #overheader a.nashor {
   font-family: "Love Letter", "Roboto", "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
   font-size: 1.5rem;
   color: #BD132C;
   transition: color ease 0.5s;
 }
-
 #overheader small {
   font-size: 0.8rem;
   font-weight: bold;
   letter-spacing: 0.03125em;
   text-transform: uppercase;
 }
-
 #overheader i {
   font-style: normal;
   transition: color ease 0.5s;
 }
-
 #overheader img {
   position: relative;
   display: inline-block;
 }
-
 span.bold {
   font-weight: bold;
 }
-
 span.italic {
   font-style: italic;
 }
-
 span.underline {
   text-decoration: underline;
 }
-
 span.strikethrough {
   text-decoration: line-through;
 }
-
 span.spoiler {
   background: black;
   color: black;
   padding: 0 0px;
 }
-
 span.spoiler a {
   color: black;
 }
-
 span.spoiler:hover, span.spoiler:hover a {
   color: white;
 }
-
 small .name {
   font-size: 0.9rem !important;
   font-weight: normal !important;
 }
-
 @media only screen and (max-width: 991px) {
   #overheader small {
     display: block;
@@ -208,9 +236,41 @@ small .name {
   div.nashor {
     margin: 3rem 0 0 0;
   }
-
-@media only screen and (min-width: 992px) and (max-width: 1352px) {
-  #overheader span.tablet {
+  @media only screen and (min-width: 992px) and (max-width: 1352px) {
+    #overheader span.tablet {
+      display: none;
+    }
+  }
+  #pagewrap {
+    margin: 0 auto 0 auto;
+  }
+  #pagewrap>span {
+    font-family: "Roboto Mono", "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
     display: none;
   }
-}
+  #pagewrap>select {
+    display: none !important;
+    background: #111111;
+    color: #dddddd;
+    border: 0;
+    box-shadow: 3px 3px 0px #000000;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    margin: 0 0.5rem 0 0;
+  }
+  #pagewrap {
+    width: 320px;
+  }
+  #pagewrap>span {
+    display: block;
+  }
+  #pagewrap>select {
+    margin: 0.5rem 0 0.5rem 0;
+  }
+  @media only screen and (min-width: 992px) {
+    #pagewrap {
+      max-width: 960px;
+    }

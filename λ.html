@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta content="text/html; charset=utf-8" http-equiv="Content-type">
-  <link href="styles.css" rel="stylesheet">
-  <link href="CryptoClicker/TemplateData/style.css" rel="stylesheet">
-  <script src="Pokemon/TemplateData/UnityProgress.js">
-  </script>
-  <script src="Pokemon/Build/UnityLoader.js">
-  </script>
-  <script>
-       var gameInstance = UnityLoader.instantiate("gameContainer", "Pokemon/Build/Desktop.json", {
-         onProgress: UnityProgress}
-                                                 );
-  </script>
-  <title>/λ/ — pokemon game</title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-type">
+	<link href="styles.css" rel="stylesheet">
+	<link href="CryptoClicker/TemplateData/style.css" rel="stylesheet">
+	<script src="Pokemon/TemplateData/UnityProgress.js">
+	</script>
+	<script src="Pokemon/Build/UnityLoader.js">
+	</script>
+	<script>
+	      var gameInstance = UnityLoader.instantiate("gameContainer", "Pokemon/Build/Desktop.json", {
+	        onProgress: UnityProgress}
+	                                                );
+	</script>
+	<title>/λ/ — pokemon game</title>
 </head>
 <body>
-  <div id="overheader">
-    <b><a class="nashor" href="index">nashor.xyz</a></b> <span class="mobile">&nbsp;&nbsp;[ <a href="λ">λ</a> / <a href="Δ">Δ</a> ]&nbsp;&nbsp;[ <a href="₿">₿</a> / <a href="♪">♪</a> ]</span> <span class="tablet">&nbsp;&nbsp; <small><a href="https://google.ca">info</a></small></span></div>
-  <div class="webgl-content">
-    <div id="gameContainer" style="width: 1280px; height: 720px"></div>
-    <div class="footer">
-      <div class="webgl-logo"></div>
-      <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-    </div>
-  </div>
+	<div id="overheader">
+		<b><a class="nashor" href="index">nashor.xyz</a></b> <span class="mobile">&nbsp;&nbsp;[ <a href="%CE%BB">λ</a> / <a href="%CE%94">Δ</a> ]&nbsp;&nbsp;[ <a href="%E2%82%BF">₿</a> / <a href="%E2%99%AA">♪</a> ]</span> <span class="tablet">&nbsp;&nbsp; <small><a href="https://google.ca">info</a></small></span>
+	</div>
+	<div class="webgl-content">
+		<div id="gameContainer" style="width: 1280px; height: 720px"></div>
+		<div class="footer">
+			<div class="webgl-logo"></div>
+			<div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+		</div>
+	</div>
 </body>
 </html>
