@@ -142,6 +142,22 @@ a.add_image {
   font-size: 1.5rem;
   font-family: "Roboto Mono", "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 }
+
+ #logo a {
+  background-image: url("controls.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid #212121;
+  display: block;
+  height: 128px;
+  margin: 79px auto 35px auto;
+  min-height: 128px;
+  min-width: 384px;
+  text-indent: -9999px;
+  width: 384px;
+}
+
 #overheader {
   align-items: center;
   background: #070707;
@@ -240,38 +256,37 @@ small .name {
     #overheader span.tablet {
       display: none;
     }
-  }
-  #pagewrap {
-    margin: 0 auto 0 auto;
-  }
-  #pagewrap>span {
-    font-family: "Roboto Mono", "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
-    font-size: 0.8rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    display: none;
-  }
-  #pagewrap>select {
-    display: none !important;
-    background: #111111;
-    color: #dddddd;
-    border: 0;
-    box-shadow: 3px 3px 0px #000000;
-    padding: 0.5rem;
-    font-size: 0.9rem;
-    margin: 0 0.5rem 0 0;
-  }
-  #pagewrap {
-    width: 320px;
-  }
-  #pagewrap>span {
-    display: block;
-  }
-  #pagewrap>select {
-    margin: 0.5rem 0 0.5rem 0;
-  }
-  @media only screen and (min-width: 992px) {
-    #pagewrap {
-      max-width: 960px;
-    }
+}
+
+#pagewrap {
+margin: 0 auto 0 auto;
+}
+#pagewrap>span {
+font-family: "Roboto Mono", "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+font-size: 0.8rem;
+font-weight: 400;
+text-transform: uppercase;
+display: none;
+}
+#pagewrap>select {
+display: none !important;
+background: #111111;
+color: #dddddd;
+border: 0;
+box-shadow: 3px 3px 0px #000000;
+padding: 0.5rem;
+font-size: 0.9rem;
+margin: 0 0.5rem 0 0;
+}
+#pagewrap {
+width: 320px;
+}
+#pagewrap>span {
+display: block;
+}
+#pagewrap>select {
+margin: 0.5rem 0 0.5rem 0;
+}
+
+
 
