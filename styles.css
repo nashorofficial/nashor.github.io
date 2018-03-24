@@ -143,21 +143,6 @@ a.add_image {
   font-family: "Roboto Mono", "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 }
 
- #logo a {
-  background-image: url("controls.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid #212121;
-  display: block;
-  height: 128px;
-  margin: 79px auto 35px auto;
-  min-height: 128px;
-  min-width: 384px;
-  text-indent: -9999px;
-  width: 384px;
-}
-
 #overheader {
   align-items: center;
   background: #070707;

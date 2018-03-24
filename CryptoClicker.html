@@ -51,11 +51,32 @@
 	#banana {
 		font-family: "Roboto"
 	}
+	
+	#logo a {
+		background-image: url("bitcoin.gif");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		border: 1px solid #212121;
+		display: block;
+		height: 128px;
+		margin: 79px auto 35px auto;
+		min-height: 128px;
+		min-width: 384px;
+		text-indent: -9999px;
+		width: 384px;
+	}
+		
   </style>
 </head>
 <body>
 	<div id="overheader">
 		<b><a class="nashor" href="https://nashor.xyz" id="LogoID">nashor.xyz</a></b> <span class="mobile">&nbsp;&nbsp;[ <a href="https://nashor.xyz/λ" id="apple">λ</a> / <a href="https://nashor.xyz/Δ" id="apple">Δ</a> ]&nbsp;&nbsp;[ <a href="https://nashor.xyz/₿" id="apple">₿</a> / <a href="https://nashor.xyz/♫" id="apple">♫</a> ]</span> <span class="tablet">&nbsp;&nbsp; <small><a href="https://nashor.xyz" id="banana">info</a></small></span>
+	</div>
+	<div  class="invisible" id="header">
+		<div class="invisible" id="logo">
+			<a  class="invisible" href="https://nashor.xyz">Bitcoin</a>
+		</div>
 	</div>
 	<div class="webgl-content">
 		<div id="gameContainer" style="width: 1280px; height: 720px"></div>
@@ -63,6 +84,8 @@
 			<div class="webgl-logo"></div>
 			<div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
 		</div>
+	<span style="display:inline-block; width: 100%;"></span>
+	<span style="display:inline-block; width: 100%;"></span>
 	</div>
 </body>
 </html>
